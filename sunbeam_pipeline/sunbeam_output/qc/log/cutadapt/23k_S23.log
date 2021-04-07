@@ -1,0 +1,98 @@
+This is cutadapt 3.4 with Python 3.6.13
+Command line parameters: --discard-untrimmed -O 16 --cores 1 -b CTACGGGNGGCWGCAG -B GACTACHVGGGTATCTAATCC -o /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/01_cutadapt/23k_S23_1.fastq.gz -p /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/01_cutadapt/23k_S23_2.fastq.gz /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/00_samples/23k_S23_1.fastq.gz /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/00_samples/23k_S23_2.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 3.72 s (31 us/read; 1.94 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:            120,402
+  Read 1 with adapter:                 116,700 (96.9%)
+  Read 2 with adapter:                 117,892 (97.9%)
+Pairs written (passing filters):       114,717 (95.3%)
+
+Total basepairs processed:    72,160,496 bp
+  Read 1:    36,117,564 bp
+  Read 2:    36,042,932 bp
+Total written (filtered):     32,754,776 bp (45.4%)
+  Read 1:       766,993 bp
+  Read 2:    31,987,783 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: CTACGGGNGGCWGCAG; Type: variable 5'/3'; Length: 16; Trimmed: 116700 times
+2327 times, it overlapped the 5' end of a read
+114373 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+1-9 bp: 0; 10-15 bp: 1
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+15	150	0.0	1	0 150
+16	2160	0.0	1	1198 962
+17	17	0.0	1	0 17
+
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+35	3	0.0	1	3
+36	2	0.0	1	1 1
+37	2	0.0	1	1 1
+38	6	0.0	1	2 4
+39	11	0.0	1	4 7
+40	4	0.0	1	0 4
+41	2	0.0	1	0 2
+42	1	0.0	1	0 1
+43	1	0.0	1	0 1
+44	5	0.0	1	0 5
+118	1	0.0	1	0 1
+130	1	0.0	1	1
+164	10	0.0	1	0 10
+165	201	0.0	1	0 201
+166	1	0.0	1	0 1
+185	1	0.0	1	0 1
+219	1	0.0	1	1
+224	3	0.0	1	3
+237	2	0.0	1	2
+253	2	0.0	1	0 2
+262	2	0.0	1	2
+265	4	0.0	1	4
+266	2	0.0	1	2
+267	1	0.0	1	1
+271	2	0.0	1	2
+272	2	0.0	1	2
+289	1	0.0	1	1
+294	4	0.0	1	2 2
+295	3	0.0	1	3
+296	3	0.0	1	2 1
+297	214	0.0	1	122 92
+298	429	0.0	1	358 71
+299	499	0.0	1	368 131
+300	112947	0.0	1	94546 18401
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: GACTACHVGGGTATCTAATCC; Type: variable 5'/3'; Length: 21; Trimmed: 117892 times
+117840 times, it overlapped the 5' end of a read
+52 times, it overlapped the 3' end or was within the read
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Overview of removed sequences (5')
+length	count	expect	max.err	error counts
+18	15	0.0	1	1 14
+19	214	0.0	1	25 61 128
+20	4483	0.0	2	1265 2962 256
+21	112562	0.0	2	107225 4632 705
+22	553	0.0	2	0 500 53
+23	13	0.0	2	0 0 13
+
+
+
+Overview of removed sequences (3' or within)
+length	count	expect	max.err	error counts
+299	32	0.0	2	21 10 1
+300	20	0.0	2	11 8 1

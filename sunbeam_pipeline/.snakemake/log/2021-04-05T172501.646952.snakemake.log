@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	27	aggregate_reads
+	28	aggregate_results
+	1	all
+	1	classic_k2_biom
+	28	contigs_mapping
+	54	filter_reads
+	28	final_filter
+	28	get_coverage
+	1	kraken2_biom
+	27	kraken2_classify_report
+	28	mapping_depth
+	28	megahit_paired
+	1	preprocess_report
+	1	summarize_coverage
+	281
+
+[Mon Apr  5 17:25:03 2021]
+rule megahit_paired:
+    input: /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/decontam/11k_S11_1.fastq.gz, /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/decontam/11k_S11_2.fastq.gz
+    output: /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/assembly/megahit/11k_S11_asm/final.contigs.fa
+    jobid: 316
+    wildcards: sample=11k_S11
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 14 of /home/csctan/sunbeam/rules/assembly/assembly.smk:
+Missing files after 5 seconds:
+/mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/assembly/megahit/11k_S11_asm/final.contigs.fa
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/.snakemake/log/2021-04-05T172501.646952.snakemake.log

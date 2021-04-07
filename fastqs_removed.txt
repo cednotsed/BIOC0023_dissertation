@@ -1,0 +1,8 @@
+parsed_fastq/16p_S40_L001.trimmed.joined.concat.filtered.fastq
+parsed_fastq/21p_S45_L001.trimmed.joined.concat.filtered.fastq
+parsed_fastq/2p_S26_L001.trimmed.joined.concat.filtered.fastq
+parsed_fastq/3p_S27_L001.trimmed.joined.concat.filtered.fastq
+parsed_fastq/4p_S28_L001.trimmed.joined.concat.filtered.fastq
+parsed_fastq/51p_S76_L001.trimmed.joined.concat.filtered.fastq
+parsed_fastq/water-SIGMA_S137_L001.trimmed.joined.concat.filtered.fastq
+parsed_fastq/water2_S56_L001.trimmed.joined.concat.filtered.fastq

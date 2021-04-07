@@ -1,0 +1,4 @@
+KeyError in line 98 of /home/csctan/sunbeam/Snakefile:
+'assembly'
+  File "/home/csctan/sunbeam/Snakefile", line 98, in <module>
+  File "/home/csctan/sunbeam/sunbeamlib/config.py", line 73, in output_subdir

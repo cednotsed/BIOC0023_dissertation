@@ -1,0 +1,3 @@
+KeyError in line 62 of /home/csctan/sunbeam/Snakefile:
+'blastdbs'
+  File "/home/csctan/sunbeam/Snakefile", line 62, in <module>

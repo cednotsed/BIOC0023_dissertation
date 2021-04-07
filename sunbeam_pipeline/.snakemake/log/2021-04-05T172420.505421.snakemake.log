@@ -1,0 +1,4 @@
+KeyError in line 96 of /home/csctan/sunbeam/Snakefile:
+'download'
+  File "/home/csctan/sunbeam/Snakefile", line 96, in <module>
+  File "/home/csctan/sunbeam/sunbeamlib/config.py", line 73, in output_subdir

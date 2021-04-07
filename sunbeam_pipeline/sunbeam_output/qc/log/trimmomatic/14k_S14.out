@@ -1,0 +1,17 @@
+TrimmomaticPE: Started with arguments:
+ -threads 1 -phred33 /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/01_cutadapt/14k_S14_1.fastq.gz /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/01_cutadapt/14k_S14_2.fastq.gz /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/02_trimmomatic/14k_S14_1.fastq.gz /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/02_trimmomatic/unpaired/14k_S14_1_unpaired.fastq.gz /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/02_trimmomatic/14k_S14_2.fastq.gz /mnt/c/Users/Cedric/Desktop/year_3/BIOC0023/BIOC0023_dissertation/sunbeam_pipeline/sunbeam_output/qc/02_trimmomatic/unpaired/14k_S14_2_unpaired.fastq.gz ILLUMINACLIP:../gosiewski_adapters.fasta:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using Medium Clipping Sequence: 'CTGCGCCNCCCGTAGG'
+Using Medium Clipping Sequence: 'TTACGGNNTGGACTACHV'
+Using Medium Clipping Sequence: 'GGATTAGATACCCGTAGTC'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Medium Clipping Sequence: 'GTAGTCCANNCCGTAA'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Medium Clipping Sequence: 'GACTACHVGGGTATCTAATCC'
+Using Medium Clipping Sequence: 'ACGGCCNNRACTCCTAC'
+Using Medium Clipping Sequence: 'CCTACGGGNGGCWGCAG'
+Using Medium Clipping Sequence: 'GTAGGAGTNNGGCCGT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+ILLUMINACLIP: Using 0 prefix pairs, 12 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 454971 Both Surviving: 8925 (1.96%) Forward Only Surviving: 73 (0.02%) Reverse Only Surviving: 440017 (96.71%) Dropped: 5956 (1.31%)
+TrimmomaticPE: Completed successfully
